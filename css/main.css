@@ -11,15 +11,49 @@ html {
   font-size: 62.5%;
 }
 
-h1 {
-  font-family: "Bellefair", sans-serif;
-}
-
 .container {
-  background-image: url("/images/earth-background.png");
+  background-image: url("/assets/home/background-home-desktop.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  width: 100vw;
+}
+
+.navigation__list {
+  color: #ffff;
+  font-family: "Barlow Condensed";
+}
+
+.navigation__list--item {
+  font-size: 1.6rem;
+  letter-spacing: 2.7px;
+  text-transform: uppercase;
+}
+
+.header {
+  height: 45rem;
+  width: 38rem;
+  font-family: "Bellefair";
+  color: #d0d6f9;
+}
+
+.header__one {
+  color: #ffff;
+  font-size: 15rem;
+  font-weight: normal;
+}
+
+.header__five {
+  font-family: "Barlow Condensed";
+  font-size: 2.8rem;
+  font-weight: normal;
+  letter-spacing: 4.725px;
+  text-transform: uppercase;
+}
+
+.header__text {
+  font-family: "Barlow Condensed";
+  font-size: 1.8rem;
+  font-weight: normal;
+  line-height: 3.2rem;
 }
 /*# sourceMappingURL=main.css.map */

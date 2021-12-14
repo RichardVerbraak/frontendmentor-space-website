@@ -1,0 +1,15 @@
+.navigation {
+	&__container {
+	}
+
+	&__list {
+		color: $color-tertiary;
+		font-family: $font-secondary;
+
+		&--item {
+			font-size: 1.6rem;
+			letter-spacing: 2.7px;
+			text-transform: uppercase;
+		}
+	}
+}
