@@ -1,8 +1,24 @@
 .navigation {
+	&__logo {
+	}
+
 	&__container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		padding-top: 5rem;
+		padding-left: 6rem;
 	}
 
 	&__list {
+		display: flex;
+		justify-content: space-between;
+		margin-right: 25rem;
+		width: 54rem;
+
+		list-style: none;
+
 		color: $color-tertiary;
 		font-family: $font-secondary;
 
