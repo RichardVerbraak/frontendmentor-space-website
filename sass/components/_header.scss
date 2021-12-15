@@ -1,6 +1,9 @@
 .header {
-	height: 45rem;
-	width: 38rem;
+	margin-top: 30rem;
+	padding-left: 26.5rem;
+
+	// height: 45rem;
+	width: 70rem;
 
 	font-family: $font-primary;
 	color: $color-secondary;
@@ -29,7 +32,7 @@
 	}
 
 	&__text {
-		font-family: $font-secondary;
+		font-family: $font-tertiary;
 		font-size: 1.8rem;
 		font-weight: normal;
 		line-height: 3.2rem;

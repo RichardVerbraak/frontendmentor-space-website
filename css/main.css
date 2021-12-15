@@ -93,8 +93,9 @@ html {
 }
 
 .header {
-  height: 45rem;
-  width: 38rem;
+  margin-top: 30rem;
+  padding-left: 26.5rem;
+  width: 70rem;
   font-family: "Bellefair";
   color: #d0d6f9;
 }
@@ -114,7 +115,7 @@ html {
 }
 
 .header__text {
-  font-family: "Barlow Condensed";
+  font-family: "Barlow";
   font-size: 1.8rem;
   font-weight: normal;
   line-height: 3.2rem;
