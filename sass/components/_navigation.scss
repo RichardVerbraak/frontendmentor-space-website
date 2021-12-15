@@ -1,21 +1,51 @@
 .navigation {
-	&__logo {
-	}
-
 	&__container {
+		position: relative;
+
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
 
-		padding-top: 5rem;
-		padding-left: 6rem;
+		padding-top: 7rem;
+		padding-left: 8rem;
+	}
+
+	&__logo {
+		height: 6rem;
+		width: 6rem;
+	}
+
+	&__line {
+		position: absolute;
+
+		top: 66.5%;
+		right: 56%;
+		z-index: 999;
+
+		background-color: #fff;
+		opacity: 0.25;
+		width: 60rem;
+		height: 1px;
+	}
+
+	&__background {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		width: 115rem;
+		height: 15rem;
+
+		// Blurs and gives opacity
+		background: rgba(255, 255, 255, 0.04);
+		backdrop-filter: blur(1.4rem);
 	}
 
 	&__list {
 		display: flex;
 		justify-content: space-between;
-		margin-right: 25rem;
-		width: 54rem;
+
+		width: 74rem;
 
 		list-style: none;
 
@@ -23,9 +53,15 @@
 		font-family: $font-secondary;
 
 		&--item {
-			font-size: 1.6rem;
-			letter-spacing: 2.7px;
+			display: flex;
+
+			font-size: 2rem;
+			letter-spacing: 3px;
 			text-transform: uppercase;
+
+			&-text {
+				padding-left: 2rem;
+			}
 		}
 	}
 }
