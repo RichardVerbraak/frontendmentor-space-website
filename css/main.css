@@ -40,8 +40,8 @@ html {
 
 .navigation__line {
   position: absolute;
-  top: 66.5%;
-  right: 56%;
+  top: 70%;
+  right: 55%;
   z-index: 999;
   background-color: #fff;
   opacity: 0.25;
@@ -59,8 +59,8 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 115rem;
-  height: 15rem;
+  width: 110rem;
+  height: 10rem;
   background: rgba(255, 255, 255, 0.04);
   -webkit-backdrop-filter: blur(1.4rem);
           backdrop-filter: blur(1.4rem);
@@ -83,7 +83,7 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 2rem;
+  font-size: 1.8rem;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
